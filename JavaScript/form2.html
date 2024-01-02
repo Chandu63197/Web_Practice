@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+        }
+        .form{
+            text-align: center;
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .title{
+            text-align: center;
+        }
+        .button{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="title">
+            <h1>Form Page</h1>
+        </div>
+        <div class="form">
+            <div class="name">
+                <label for="">Name:</label>
+                <input  id="name" type="text" placeholder="enter your name">
+            </div>
+            <br>
+            <div class="email">
+                <label for="">Email:</label>
+                <input id="email" type="email" placeholder="enter your email"> 
+            </div>
+            <br>
+            <div class="yob">
+                <label for="">YearofBirth:</label>
+                <input id="yob" type="number" placeholder="enter yob">
+            </div>
+            <br>
+            <div class="password">
+                <label for="">Password:</label>
+                <input id="password" type="password" placeholder="enter your password">
+            </div>
+            <br>
+            <div class="confirmpassword">
+                <label for="">ConfirmPassword:</label>
+                <input id="confirmpassword" type="password" placeholder="confirmpassword">
+            </div>
+            <br>
+            <div class="button">
+                <button onclick="submit()" type="Submit">Submit</button>
+            </div>
+        </div>
+    </div>
+    <script src="form2.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.api{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product{
+    width: 250px;
+    height: 50vh;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.images{
+    padding-left: 10px;
+}
+.image{
+    width: 230px;
+    height: 220px;
+}
+.t{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.b{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.r{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.p{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            background: url(login.jpg);
+            height: 540px;
+            width: 770px;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 380px;
+            margin-top: 100px;
+        }
+        .login{
+            background-color: white;
+            width: 250px;
+            height: 428px;
+            padding:0px 30px;
+        }
+        .p1{
+            color: rgb(154, 90, 214);
+        }
+        .email{
+            width: 230px;
+            height: 24px;
+        }
+        .password{
+            margin-left: 60px;
+            color: rgb(154, 90, 214);
+        }
+        .in1{
+            width: 230px;
+            height: 24px;
+        }
+        .btn{
+            width: 240px;
+            height: 30px;
+            color: white;
+            background-color:rgb(154, 90, 214);
+            border-radius: 10px;
+            margin-top: 25px;
+            border: none;
+        }
+        .bt2{
+            margin-top: 10px;
+            margin-left: 3px;
+            margin-bottom: 10px;
+            padding: 10px 26px;
+            background-color: white;
+            border-radius: 8px;
+            color: orangered;
+        }
+        .bt3{
+            margin-top: 10px;
+            margin-left: 3px;
+            margin-bottom: 10px;
+            padding: 10px 21px;
+            background-color: white;
+            border-radius: 8px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <div class="login">
+            <h1>Login</h1>
+            <p>Doesn't hava an account yet?<a class="p1" href="">Sign up</a></p>
+            <label id="label1" for="">Email Address</label>
+            <br>
+            <input class="email" placeholder="you@example.com" type="text" id="email">
+            <br> <br>
+            <label id="label2" for="">Password</label>
+            <a class="password" href="">Forget Password?</a>
+            <br>
+            <input class="in1" type="text" placeholder="Enter 6 character or more" id="password">
+            <br> <br>
+            <input type="checkbox" name="Remember me" id="">
+            <label for="">Remember me</label>
+            <br>
+            <button onclick="signIn()" class="btn">Login</button>
+            <br> <br>
+            <hr>
+            <div class="button">
+                <button class="bt2"><img height="10px" width="18px" src="G.png" alt="">Google</button>
+                <button class="bt3"><img height="10px" width="18px" src="F.png" alt="">Facebook</button>
+            </div>
+        </div>
+        <div class="image">
+            <img id="image" height="428px" width="400px" src="login.jpg" alt="">
+        </div>
+    </div>
+    <script src="form1.js"></script>
+</body>
+</html>

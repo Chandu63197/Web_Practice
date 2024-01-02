@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+*{
+    font-family: Roboto Condensed;
+}
+.digitalclock{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 84px;
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.AstrologyApp{
+    margin-top: 10px;
+    margin-bottom: 100px;
+    height: 100vh;
+    margin-left: 550px;
+    margin-right: 550px;
+    border: 0px solid black;
+    background-color: grey;
+    border-radius: 20px;
+}
+.title{
+    color: black;
+    text-align: center;
+}
+.title h1{
+    font-size: 48px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title button{
+    background-color: rgba(79, 167, 79, 0.537);
+    padding: 10px 50px;
+    color: white;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+}
+.Info{
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    background-color: white;
+    border: 0px solid black;
+    padding: 0px;
+    border-radius: 20px;
+    margin: 40px;
+    transform: translateY(50px);
+}
+p{
+    font-size: 20px;
+    transform: translateY(20px);
+}
+
