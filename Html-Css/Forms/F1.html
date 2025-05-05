@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Forms</h1></center>
+    <form action="home.html">
+        <label for="Username">Name:</label>
+        <input type="name" name="Name:">
+        <br>
+        <label for="Mobile">MobileNumber:</label>
+        <input type="tel" name="Mobile Number:" minlength="10" maxlength="10">
+        <br>
+        <label for="Date">Date Of Birth:</label>
+        <input type="date" name="Date of Birth:">
+        <br>
+        <label for="Email address">Email: *</label>
+        <input placeholder="enter you email Id" type="email" name="Email:" required>
+        <br>
+        <label for="UserPassword">Password: *</label>
+        <input type="password"  placeholder="enter your password" name="Password:" minlength="6" maxlength="8" required>
+        <br>
+        <label for="Backlogs">Active Backlogs:</label>
+        <input type="number" min="0" max="2" name="Active Backlogs:">
+        <br>
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="Gender">
+        <label for="Gender">Male</label>
+        <input type="radio" name="Gender">
+        <label for="Gender">Female</label>
+        <br>
+        <label for="Address">Address:</label>
+        <textarea name="Address:" cols="30" rows="10"></textarea>
+        <br>
+        <label for="Resume">Upload Resume:</label>
+        <input type="file" name="Upload Resume:">
+        <br>
+        <label for="Branch">Branch:</label>
+        <select name="branch">
+            <option value="CSE/IS">CSE/IS</option>
+            <option value="IT">IT</option>
+            <option value="ECE">ECE</option>
+            <option value="ME">ME</option>
+            <option value="CIVIL">CIVIL</option>
+        </select>
+        <br>
+        <input type="checkbox" name="Accept our terms & conditions">
+        <label for="T&C">Accept our terms & conditions</label>
+        <br>
+        <button type="submit">Register</button>
+        <button type="submit">Login</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

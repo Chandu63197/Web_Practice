@@ -1,0 +1,34 @@
+.div1{
+    color:blue;
+    background-color:black ;
+}
+.div2{
+    color:blue;
+    background-color: cadetblue;
+}
+#div1{
+    color:blueviolet;
+    background-color:whitesmoke;
+}
+#div2{
+    color:blue;
+    background-color:aqua;
+}
+.Cdiv{
+    color: blue;
+    background-color: chartreuse;
+}
+#IDdiv{
+    color: blue;
+    background-color:aquamarine;
+}
+*{
+    color:blue;
+    background-color:darkorange;
+}
+.div2 h1{
+    color: bisque;
+}
+.div2 p{
+    color: brown;
+}
