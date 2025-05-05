@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid template layouts </title>
+    <style>
+    .main {
+       display: grid; 
+       grid-gap: 10px;
+       grid-template-columns: repeat(7, 1fr);
+       /* grid-template-rows: repeat(7,1fr); */
+       height: 100vh;
+       padding: 5px;
+       text-align: center;
+       
+
+
+    }
+    #items {
+       background-color: yellow;
+       border: 3px solid red;
+    
+
+    }
+    .grid{
+
+      display: grid;
+      grid-gap: 10px;  
+    }
+
+/* .grid  #items div:hover {
+     border-radius: 10px;
+     margin: 10px;
+     background-color: aqua;
+     color: white;
+     column-gap: 20px;
+     grid-row: 20px;
+              
+} */
+</style>
+</head>
+<body>
+    <div class="main">
+          <div class="grid">
+              <div id="items">1</div>
+          </div> 
+           
+          <div class="grid">
+
+            <div id="items">2</div>
+            <div id="items">3</div>
+          </div>
+
+           <div class="grid">
+
+             <div id="items">4</div>
+             <div id="items">5</div>
+             <div id="items">6</div>
+           </div>
+
+            <div class="grid">
+
+                <div id="items">7</div>
+                <div id="items">8</div>
+                <div id="items">9</div>
+                <div id="items">10</div>
+            </div>
+
+            <div class="grid">
+
+                <div id="items">11</div>
+                <div id="items">12</div>
+                <div id="items">13</div>
+                <div id="items">14</div>
+                <div id="items">15</div>
+            </div>
+
+            <div class="grid">
+
+                <div id="items">16</div>
+                <div id="items">17</div>
+                <div id="items">18</div>
+                <div id="items">19</div>
+                <div id="items">20</div>
+                <div id="items">21</div>
+            </div>
+
+            <div class="grid">
+
+                <div id="items">22</div>
+                <div id="items">23</div>
+                <div id="items">24</div>
+                <div id="items">25</div>
+                <div id="items">26</div>
+                <div id="items">27</div>
+                <div id="items">28</div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+</body>
+</html>

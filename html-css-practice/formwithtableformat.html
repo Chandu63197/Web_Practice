@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form in table format</title>
+    <style>
+      h1 {
+        text-align: center;
+        text-transform: uppercase;
+      }
+      table,
+      tr,
+      td,
+      th {
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        margin: auto auto;
+        text-transform: uppercase;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>student form</h1>
+    <form action="">
+      <table>
+        <tr>
+          <th>frist name</th>
+          <td><input type="text" name="fname" id="fname" /></td>
+        </tr>
+
+        <tr>
+          <th>last name</th>
+          <td><input type="text" name="lname" id="lname" /></td>
+        </tr>
+
+        <tr>
+          <th>roll number</th>
+          <td><input type="text" name="rnumber" id="rnumber" /></td>
+        </tr>
+
+        <tr>
+          <th><label for="year"> select year</label></th>
+          <td>
+            <select name="year" id="year">
+              <option value="1st year">1st year</option>
+              <option value="2nd year">2nd year</option>
+              <option value="3rd year">3rd year</option>
+              <option value="4th year">4th year</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <th><label> gender</label></th>
+          <td>
+            <input type="radio" name="male" id="male" value="male" /> male
+            <input type="radio" name="female" id="female" value="female" />
+            female
+          </td>
+        </tr>
+
+        <tr>
+          <th>date of birth</th>
+          <td><input type="date" name="dob" id="dob" /></td>
+        </tr>
+
+        <tr>
+          <th>phone number</th>
+          <td><input type="number" name="pnumber" id="pnumber" /></td>
+        </tr>
+
+        <tr>
+          <th>email id</th>
+          <td><input type="email" name="emailid" id="emailid" /></td>
+        </tr>
+
+        <tr>
+          <th>address</th>
+          <td><input type="text" name="address" id="address" /></td>
+        </tr>
+
+        <tr>
+          <th></th>
+          <td><input type="reset" name="reset" id="reset" value="reset" /></td>
+        </tr>
+
+        <tr>
+          <th></th>
+          <td>
+            <input type="submit" name="submit" id="submit" value="submit" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+<html>
+  <head>
+    <title>register</title>
+    <script language="JAVASCRIPT">
+      function essentials_of_validation(form1)
+      {
+      var return_value=true;
+      var username1=form1.txtusername1.value; 
+      var username2=form1.txtusername2.value; 
+      var password1=form1.txtpassword1.value;
+       var password2=form1.txtpassword2.value;
+        if(username1.length < 8)
+      {
+      return_value=false;
+      window.alert("user name less than 8 chars");
+      }
+      if(username1==username2)
+      {
+      return_value=false; window.alert("both ids are same"); form1.txtusername2.value="";
+      }
+      if(password1.length<6)
+      {
+      return_value=false;
+      window.alert(" pwd should be > 6 char's "); form1.txtpassword1.value=""; form1.txtpassword2.value="";
+      }
+      if(password1!=password2)
+      {
+      return_value=false;
+      window.alert("ur password mismatched "); form1.txtpassword1.value=""; form1.txtpassword2.value="";
+      }
+      return return_value;
+      }
+    </script>
+  </head>
+  <body bgcolor="YELLOW">
+    <center>
+      <u>
+        <marquee
+          ><font name="mistral" size="+1">REGISTRATION FORM</font></marquee
+        >
+      </u>
+    </center>
+    <form name="form1" onSubmit="essentials_of_validation(this)">
+      Name:<input name="name" type="text" size="10" />
+      <br />
+      Age:<input type="text" size="3" /> <br />
+      Sex:<br />
+      <input name="gen" type="radio" value="male" />male
+      <input name="gen" type="radio" value="female" />female
+      <br />
+      Address:<textarea name="address" rows="3" cols="3"></textarea>
+      <br />
+      Enter e-mail id u want :<sup>*</sup>
+      <input type="text" name="txtusername1" size="15" />
+      <br />
+      Password:<sup>*</sup>
+      <input type="Password" name="txtpassword1" size="15" />(password should
+      exceed 6 characters)
+      <br />
+      Confirm password:<input type="password" name="txtpassword2" size="20" />
+      <br />
+      Alternate mail:<sup>*</sup>
+      <input type="text" name="txtusername2" size="15" />
+      <br />
+      Known This Site Through
+      <br />
+      <input name="things" type="checkbox" value="srts" /> internet
+      <input name="things" type="checkbox" value="sp" />newspapers
+      <input name="things" type="checkbox" value="spor" /> friends
+      <br />
+      Rate ur site
+      <select name="rating">
+        <option selected>good</option>
+        <option>average</option>
+        <option>bad</option>
+        <option>no rating</option></select
+      ><br />
+      Enter the code<input name="code" type="text" size="5" />
+      <table border="1" width="10%" height="10%">
+        <thead>
+          <tr>
+            <th>1123</th>
+          </tr>
+        </thead>
+      </table>
+      <br />
+      <input type="submit" value="submit " />
+      <input type="reset" value="clear ur entries" />
+    </form>
+    <font size="+1">
+      <a href="online.html">Home</a>
+      <a href="user.html">Login</a>
+    </font>
+  </body>
+</html>

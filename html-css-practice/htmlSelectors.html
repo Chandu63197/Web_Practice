@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html selectors in javascript</title>
+  </head>
+  <body>
+    <!-- html code -->
+    <h1>learning html selectors in javascript</h1>
+    <div class="container">
+      <div id="frist" class="ch1">child1</div>
+      <div class="ch1">child2</div>
+      <div class="ch3">child3</div>
+      <div class="ch4">child4</div>
+    </div>
+    <div class="test"> testing </div>
+    <form action="" method="get">search: <input type="text" /></form>
+    <!-- js code -->
+    <script>
+      console.log("welcome to html selectors");
+      /*  dom element selectors
+            1.single element selectors
+            2.multi element selectors
+         */
+      // ------ getelementbyid
+      let element = document.getElementById("frist");
+      //  element = element.childNodes;
+      // element = element.parentNode;
+      //  element.style.color = 'red' ;
+        // element.style.fontSize = "100px";
+        // element.innerText= "devi is a good girl";
+        //  element.innerHTML= " <b> devi is a good girl </b>";
+          console.log(element);
+        //   console.log(element.innerHTML);
+     //   console.log(element.innerText);
+
+
+      //------getelementbyclassname
+    //  let element1 = document.getElementsByClassName("4");
+    //  console.log(element1);
+
+    //1.single element selectors
+    // it will select frist element of class or id
+  // let sel = document.querySelector("#frist"); // try  class name  like .ch1
+  sel = document.querySelector("h1");
+   //sel = document.querySelector("div");
+ sel.style.color = "hotpink";
+    console.log(sel);
+
+// 2.multi element selector
+let sel2 = document.getElementsByClassName("ch1");
+sel2 = document.getElementsByTagName("h1")
+
+console.log(sel2);
+    </script>
+  </body>
+</html>

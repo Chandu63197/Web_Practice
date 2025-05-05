@@ -1,0 +1,58 @@
+*{
+
+box-sizing:border-box;
+padding: 0%;
+margin: 0%;
+
+}
+
+div.register {
+
+    background-color:rgba(0, 0, 0, 0.267);
+    width:auto;
+    text-transform: capitalize;
+    text-align: left;
+    border: width 50px; 
+    
+    
+}
+
+body {
+
+background-image: url(student_nature.jpg);  
+/* background-color: aquamarine; */
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 80%;
+font-size: large;
+border-radius: 100px solid grey;
+
+}
+
+div.heading {
+
+
+  width: 400px;
+  margin: 100px auto  0px auto ;
+  /* background-color: skyblue; */
+}
+
+
+h1{
+
+    text-align: center;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    
+
+}
+
+
+label{
+
+    font-weight: bold; 
+    display: inline-block;
+
+
+}

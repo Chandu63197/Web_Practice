@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>position propertys</title>
+     <style>
+      .container {
+        border: 2px solid red;
+        background-color: yellow;
+        height: 800px;
+      }
+      /*  CSS position -  static(default) , absolute , relative , fixed , sticky */
+      .box {
+        display: inline-block;
+        border: 2px solid rgb(0, 2, 109);
+        width: 150px;
+        height: 150px;
+        margin: 2px;
+      }
+
+      #box2 {
+        /* fixed : (relative to browser window)it will be fixed at one position while scrolling 
+          example : used in website for chat bot at corner of website */
+        /* position: fixed; 
+         right: 15px;
+         bottom: 15px; */
+
+        /* sticky :   used for nav bar in website*/
+        position: sticky;
+        top: 15px;
+      }
+
+      #box3 {
+        /*  relative : relative to its normal position  and will leave a gap for its old normal position */
+        /* position: relative; 
+         top: 34px;
+        left: 134px; */
+
+        /* absolute : relative to the position to its frist parent  */
+        /* position: absolute; 
+         top: 34px;
+        left: 134px; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="box1">1</div>
+      <div class="box" id="box2">2</div>
+      <div class="box" id="box3">3</div>
+      <div class="box" id="box4">4</div>
+    </div>
+  </body>
+</html>

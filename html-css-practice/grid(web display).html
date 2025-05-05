@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website layout</title>
+    <style>
+      *{
+          padding: 0%;
+          margin: 0%;
+          box-sizing:border-box;
+          background-color: blanchedalmond;
+      }
+        
+      body {
+          display: grid;
+          grid-gap: 1.5rem;
+          width: 75%;
+          margin: 10% auto;
+          /* border: 2px solid black; */
+          display: grid;
+          grid-template-rows:50px 50px 300px 30px ;
+         grid-template-columns:repeat(2, 1fr);
+         font-size: 30px;
+         text-transform: uppercase;
+         text-align: center;
+         
+        
+      }
+
+      /* main {
+        grid-template-columns: 50px ;
+        grid-template-rows: 50px 50px  ;
+
+      }
+
+      article , section {
+
+         background-color: bisque;
+      } */
+
+      header {
+          grid-column: 1/-1;
+          background-color: red;
+
+      }
+
+
+      nav {
+             grid-column: 1/-1;
+             background-color: skyblue;
+
+      }
+
+      main {
+
+        
+        background-color: yellow;
+        width: 650px;
+        
+        
+      }
+
+      aside {
+
+        background-color: blueviolet;
+
+      }
+
+      footer {
+          grid-column: 1/-1;
+          background-color:rgb(43, 43, 148);
+
+      }
+
+
+    </style>
+</head>
+<body>
+
+    <header> i am header </header>
+     <nav>i am nav bar</nav>
+     <main>i am main content
+         
+         <!-- <article> article </article>
+
+        <section>section </section>
+
+        <details>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium labore a vero
+             doloremque id adipisci, dolorum nisi totam quo possimus. 
+            Obcaecati voluptatum ipsam ipsum neque nihil adipisci non vitae iusto.</details>  -->
+     </main>  
+     <aside>i am aside content</aside>
+
+     <footer>i am footer </footer>
+</body>
+</html>

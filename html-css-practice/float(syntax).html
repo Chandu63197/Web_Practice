@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>float example with lang syntax</title>
+
+    <style>
+      body {
+        background-color: aquamarine;
+      }
+
+      h1 {
+        text-align: center;
+        text-transform: capitalize;
+      }
+
+      .code1,
+      .code2,
+      .code3,
+      .code4,
+      .code5 {
+        text-align: center;
+        text-transform: capitalize;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 5px;
+        margin: 2px;
+      }
+
+      h3,
+      h4 {
+        color: brown;
+        text-transform: capitalize;
+      }
+
+      #c,
+      #cpp,
+      #java,
+      #js,
+      #python {
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: azure;
+        overflow: scroll;
+      }
+
+      .img1,
+      .img3,
+      .img5 {
+        float: right;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>syntax of popular programming language</h1>
+    <div class="main">
+      <h2 class="code1">c language</h2>
+
+      <div class="lang" id="c">
+        <div>
+          <img
+            class="img1"
+            src="https://i.pinimg.com/originals/6e/46/e7/6e46e7dbe2bb73dacc055e5dbd85c3ad.png"
+            alt=""
+            height="80px"
+          />
+        </div>
+        <code>
+          #include&lt;stdio.h&gt; <br />
+          #include&lt;conio.h&gt; <br />
+          void main() <br />
+          { <br />
+          clrscr(); <br />
+          printf("hello coder!"); <br />
+
+          getch(); <br />
+          return 0; <br />
+          }
+          <hr>
+          <h3>to take input from user</h3>
+          <example>
+            <h4>syntax</h4>
+            scanf("format specifer",address of operator(&) varible); <br />
+            ex:-- <br />
+            scanf("%d"&a);
+          </example>
+        </code>
+      </div>
+
+      <h2 class="code2">c++ language</h2>
+      <div class="lang" id="cpp">
+
+        <div class="img2">
+          <img  style="float: left;"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"
+            alt=""
+            height="80px"
+          />  </div>
+        
+        <code style="float:right";   >
+          
+          #include&it;iostream&gt; <br />
+          using namespace std; <br />
+          int main() <br />
+          { <br />
+          cout&it;&it;"hello coder!"; <br />
+          return 0; <br />
+          }
+           <hr>
+          <h3>to take input from user</h3>
+          <example>
+            <h4>syntax</h4>
+
+            cin&gt;&gt;"statement"; <br />
+            ex:-- <br />
+
+            cin&gt;&gt;"enter your age";
+          </example>
+         
+          
+        </code>
+      </div>
+
+      <h2 class="code3">java language</h2>
+      <div class="lang" id="java">
+        <div class="img3">
+          <img
+            src="https://i.pinimg.com/originals/d9/7a/d7/d97ad7d1f3f486dc9309a87b0209538a.jpg"
+            alt=""
+            height="80px"
+          />
+        </div>
+        <code>
+          Public Static Demo { <br />
+          Public Static void main(String[]args){ <br />
+          System.out.print("hello coder"); <br />
+          } <br />
+          }
+          <hr>
+          <h3>to take input from user</h3>
+          <example>
+            <h4>syntax</h4>
+            import java.util.Scanner; //IMPORT THIS PACKAGE AT THE TOP LINE OF
+            PROGRAM <br />
+            Scanner object_name=new Scanner(System.in); //CREATE OBJECT <br />
+            a=obj.nextLine(); //METHOD TO READ INTEGER CALLED BY OBJ NAME <br />
+            <br />
+            ex:-- <br />
+            Scanner obj-new Scanner(System.in); <br />
+            System.out.print("enter the value of a"); <br />
+            a=obj.nextLine(); <br />
+            System.out.pprint("value of a is" + a); <br />
+          </example>
+        </code>
+      </div>
+
+      <h2 class="code4">java script</h2>
+
+      <div class="lang" id="js">
+        <div class="img4" style="float: left;">
+          <img
+            src="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png"
+            alt=""
+            height="80px"
+          />  </div>
+        
+        <code style="float:right">
+          console.log("hello coder!")
+               <hr>
+          <h3>to take input from user</h3>
+          <example>
+            <h4>syntax</h4>
+            variable varible_name = prompt(statement); <br />
+            ex:-- <br />
+            let number=prompt("enter any number");
+          </example>
+        </code>
+      </div>
+
+      <h2 class="code5">python</h2>
+      <div class="lang" id="python">
+        <div class="img5">
+          <img
+            src="https://images.ctfassets.net/mrop88jh71hl/55rrbZfwMaURHZKAUc5oOW/9e5fe805eb03135b82e962e92169ce6d/python-programming-language.png"
+            alt=""
+            height="80px"
+          />   
+        </div>
+        <code>
+          print("hello coder!)"
+              <hr>
+          <h3>to take input from user</h3>
+          <example>
+            <h4>syntax</h4>
+            varible =input("statement") <br />
+            ex:-- <br />
+            a=input("enter your name") <br />
+            print(a)
+          </example>
+        </code>
+      </div>
+     </div>
+  </body>
+</html>

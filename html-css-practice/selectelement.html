@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>select element html code</title>
+  </head>
+  <body>
+
+
+<!-- select element html code  -->
+    <h2>the select element</h2>
+    <p>the select element defines a drop down list:</p>
+    <form method="get">
+      <label for="cars"> choose a car: </label>
+      <select id="cars" name="cars">
+        <option value="volvo">volvo</option>
+        <option value="saab">saab</option>
+        <option value="fiat">fiat</option>
+        <option value="audi">audi</option>
+      </select>
+      <input type="submit" />
+    </form>
+
+
+
+<!-- selected attribute -->
+    <h2>pre-selected option</h2>
+    <p>you can pre-select an option with selected attribute:</p>
+    <form method="get">
+      <label for="cars"> choose a car: </label>
+      <select id="cars" name="cars">
+        <option value="volvo">volvo</option>
+        <option value="saab">saab</option>
+        <option value="fiat" selected>fiat</option>
+        <option value="audi">audi</option>
+      </select>
+      <input type="submit" />
+   
+   
+   <!-- multiple selections -->
+      <h2>allow multiple selections</h2>
+      <p>use the multiple attribute to allow user to select more than one value </p>
+      <form method="get">
+        <label for="cars"> choose a car: </label>
+        <select id="cars" name="cars"  size="2"multiple>
+          <option value="volvo">volvo</option>
+          <option value="saab">saab</option>
+          <option value="fiat" selected>fiat</option>
+          <option value="audi">audi</option>
+        </select>
+        <input type="submit" />
+     
+    </form>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NAV BAR</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Ubuntu", sans-serif;
+      }
+      nav {
+        height: 100px;
+        background-color: #81ecec;
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .logo {
+        width: 50%;
+        color: #0984e3;
+        margin-right: 300px;
+          text-transform: capitalize;
+        padding-left: 70px;
+        text-shadow: 2px 2px 2px #fd79a8;
+      }
+      .menu_links {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+        list-style: none;
+        font-weight: 800;
+        text-transform: capitalize;
+        
+      }
+
+      .menu_links a {
+       text-decoration: none;
+       color: #2d3436;
+       text-transform: uppercase;
+       font-weight: 800;
+         position: relative;
+
+      }
+      .menu_links a::before 
+      {
+       content:"";
+       position: absolute;
+       left: 0;
+       top:100%;
+       width:0%;
+       height: 2px;
+       background-color:#0984e3;
+
+      }
+
+      .menu_links a:hover:before
+      {
+          width: 100%;
+          background-color: #fd79a8;
+          transition: all 0.3s linear;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1>devi kumavath</h1>
+        </div>
+
+        <ul class="menu_links">
+          <li><a href="#"> home </a></li>
+          <li><a href="#">projects </a></li>
+          <li><a href="#">about </a></li>
+          <li><a href="#"> contact </a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>

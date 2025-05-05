@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> grid layout </title>
+    <style>
+     .grid {
+      display: grid;
+      grid-template-rows: 1fr 5fr 2fr;
+      
+      grid-template-columns: 4fr 4fr 9fr;
+      /* grid-auto-rows: 10fr; */
+     /* grid-gap: 10rem;  */
+     /* grid-template-columns: repeat(10, 1fr); */
+      /* grid-template-rows: repeat(10, 1fr); */
+
+     }
+      .box {
+        background-color: aqua;
+        border: 2px solid black;
+        margin: 5px;
+        
+
+
+      }
+
+    </style>
+</head>
+<body>
+     <div class="grid">
+         <!-- div.box{this is box-$}*10  (this is  emmet ) -->  
+            <div class="box">this is box-1</div>
+            <div class="box">this is box-2</div>
+            <div class="box">this is box-3</div>
+            <div class="box">this is box-4</div>
+            <div class="box">this is box-5</div>
+            <div class="box">this is box-6</div>
+            <div class="box">this is box-7</div>
+            <div class="box">this is box-8</div>
+            <div class="box">this is box-9</div>
+            <div class="box">this is box-10</div>
+
+
+
+
+     </div>
+
+
+
+
+</body>
+</html>

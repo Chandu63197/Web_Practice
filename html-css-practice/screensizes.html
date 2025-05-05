@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen resolution</title>
+    <style>
+        body {
+            background-color: aquamarine;
+
+        }
+
+        .screen {
+
+            color: white;
+            font-size: 22px;
+            text-align: center;
+            display: none;
+
+        }
+
+        @media (max-width:576px) {
+            #one {
+
+                display: block;
+                background-color: blue;
+            }
+        }
+
+        @media (min-width:576px) and (max-width:768px) {
+            #two {
+
+                display: block;
+                background-color: green;
+            }
+        }
+
+        @media (min-width:768px) and (max-width:992px) {
+            #three {
+
+                display: block;
+                background-color: red;
+            }
+        }
+
+        @media (min-width:992px) and (max-width:1200px) {
+            #four {
+
+                display: block;
+                background-color: yellow;
+
+
+            }
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="screen" id="one">
+
+        <h2>small screen size</h2>
+        <p> phones fall under small screen category </p>
+
+    </div>
+    <div class="screen" id="two">
+
+        <h2>medium screen size</h2>
+        <p> tablets fall under medium screen category </p>
+
+
+    </div>
+    <div class="screen" id="three">
+
+        <h2>large screen size</h2>
+        <p> PC's and destop fall under large screen category </p>
+    </div>
+
+    <div class="screen" id="four">
+
+        <h2> extra large screen size</h2>
+        <p> wide destop fall under extra large screen category </p>
+
+
+    </div>
+
+
+</body>
+
+</html>

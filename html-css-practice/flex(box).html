@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex box property's</title>
+
+    <style>
+     /* to apply flex box property on flex container  */
+     body {
+     display: flex;
+     justify-content: center;
+     margin-top: 50px;
+     /* justify-content: flex-end; */
+     /* align-items: center; */
+    
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+      /* flex container  */
+      .fcontainer {
+        border: 2px solid black;
+        display: flex;
+        height: 450px;
+        /* direction of flex item in flex container and defalut value of flex direction is row    */
+        /* ----------------------------------------------------------------------------------------------------------------------- */
+        /* flex-direction: row;*/
+        /* flex-direction: column; */
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column-reverse; */
+
+        /* position of flex items */
+        /* -------------------------------------------------------------------------------------------------------------------------- */
+
+        /* justify-content:center; */
+        /* justify-content: baseline; */
+        /* justify-content: end; */
+        /* justify-content: first baseline; */
+        /* justify-content: flex-end; */
+        /* justify-content: last baseline; */
+        /* justify-content: left; */
+        /* justify-content: right; */
+        /* justify-content: safe; */
+        /* justify-content: space-around; */
+        /* justify-content: space-between; */
+
+        /* alignment of items of cross-axis */
+        /* ----------------------------------------------------------------------------------------------------------------------- */
+        /* align-items: center; */
+        /* align-items: baseline; */
+        /* align-items: flex-end; */
+        /* align-items: flex-start; */
+        /* align-items: stretch; */
+
+        /* wrap means single and multi line of flex itmes  (responsive)  & deflaut value is wrap */
+
+        /* flex-wrap: wrap; */
+        /* flex-wrap:nowrap; */
+        /* flex-wrap: wrap-reverse; */
+
+        /* SHORTHAND PROPERTY OF direction & wrap */
+        /* flex-grow: "flex-direction" flex-wrap"*/
+        flex-flow: row wrap;
+      }
+
+      /* flex item */
+      .fitem {
+        background-color: aqua;
+        border: 2px solid black;
+        border-radius: 2px;
+        margin: 5px;
+        width: 120px;
+        height: 120px;
+        padding: 5px;
+      }
+      /* child of container , can make changes to particular flex item indiviually */
+      #f1 {
+        /* control order of items , which item to appear 1st */
+        /* order:1;   */
+
+        /*to increase the size of indiviual flex item  & default value is 1  */
+        /* flex-grow:3 ; */
+
+        /* to decrease the size of indivial flem time */
+        /* flex-shrink: 5; */
+
+        /* alignment of indivial child  */
+        /* align-self: center; */
+        /* align-self: flex-end; */
+        /* align-self: flex-start; */
+        /* align-self: stretch; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fcontainer">
+      <div class="fitem" id="f1">1</div>
+      <div class="fitem" id="f2">2</div>
+      <div class="fitem" id="f3">3</div>
+      <div class="fitem" id="f4">4</div>
+    </div>
+  </body>
+</html>
