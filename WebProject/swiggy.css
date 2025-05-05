@@ -1,0 +1,57 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.swiggy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form{
+    padding: 20px;
+    height: 700px;
+    width: 52%;
+}
+.nav{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: orange;
+}
+.bt1{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    border: none;
+}
+.bt2{
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+}
+.head p{
+    color:rgba(0,0,0,0.815)
+}
+.input{
+    display: flex;
+    align-items: center;
+}
+.in1{
+    padding: 15px;
+    width: 645px;
+}
+.bt3{
+    color: white;
+    background-color: orange;
+    padding: 7px ;
+}
+.p1{
+    color:rgba(0,0,0,0.5);
+    margin-top: 40px;
+}
+.text{
+    margin-top: 50px;
+}

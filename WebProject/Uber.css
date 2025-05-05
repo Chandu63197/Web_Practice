@@ -1,0 +1,95 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+.navbar1{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+.navbar1 a{
+   text-decoration: none;
+   color: black;
+   margin: 20px;
+   font-size: 20px;
+}
+.hr1{
+   color: orange;
+}
+.home{
+   padding: 0px 60px;
+}
+.intro{
+   background: url(1323.jpg);
+   background-size:cover;
+   background-position: center;
+   height: 90vh;
+   z-index: -1;
+}
+.intro1 h1{
+   margin-left: 60px;
+   transform: translateY(340px);
+   color: white;
+   font-size: 50px;
+}
+.par p{
+   margin-left: 60px;
+   transform: translateY(345px);
+   color: orange;
+   font-size: 29px;
+}
+.boxes{
+   display: flex;
+   padding: 0px 60px;
+   justify-content: space-between;
+   margin-top: 30px;
+}
+.box1{
+   height: 300px;
+   width: 550px;
+   background-color: rgba(128, 128, 128, 0.372);
+}
+.box2{
+   height: 300px;
+   width: 550px; 
+   background-color: rgba(128, 128, 128, 0.454);
+}
+.box1 h1{
+   margin-top: 30px;
+   margin-left: 30px;
+}
+.box1 p{
+   margin-top:20px ;
+   margin-left: 30px;
+   margin-right: 30px;
+   
+}
+.box1 button{
+   margin-top: 30px;
+   margin-left: 30px;
+   width: 450px;
+   height: 35px;
+   background-color: orange;
+}
+.box2 h1{
+   margin-top: 30px;
+   margin-left: 30px;
+}
+.box2 p{
+   margin-top:20px ;
+   margin-left: 30px;
+   margin-right: 30px;
+   
+}
+.box2 button{
+   margin-top: 30px;
+   margin-left: 30px;
+   width: 450px;
+   height: 35px;
+   background-color: orange;
+}
+.opp{
+   padding: 0px 60px;
+   text-decoration:underline orange;
+}

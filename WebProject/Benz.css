@@ -1,0 +1,53 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.navbar1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 12px;
+}
+.navbar1 a{
+    color:rgb(170, 167, 167);
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0px 15px;
+}
+.navbar1 a:hover{
+    color: white;
+}
+
+.home{
+    background: url('mq7-original-aspect.avif');
+    height: 86vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar2{
+    background-color: rgba(0,0,0,0.447);
+    text-align: center;
+    padding: 10px 12px;
+}
+.navbar2 a{
+    color: white;
+    margin: 0px 12px;
+    text-decoration: none;
+}
+.intro{
+    transform: translateY(150px);
+    color: white;
+
+}
+.intro button{
+    background-color: white;
+    color: black;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 15px;
+}
+.intro button:hover{
+    background-color: rgb(13, 93, 167);
+    color: white;
+}
